@@ -246,7 +246,7 @@ cmsis os是TencentOS tiny为了兼容cmsis标准而适配的OS抽象层，可以
 
 ![](https://main.qcloudimg.com/raw/ae39de65e8b2511188df2137d6d09e03.png)
 
-继续在main.c 的mian函数中硬件外设初始化代码后添加TencentOS tiny的初始化代码：
+继续在main.c 的main函数中硬件外设初始化代码后添加TencentOS tiny的初始化代码：
 
 ```
      osKernelInitialize(); //TOS Tiny kernel initialize
